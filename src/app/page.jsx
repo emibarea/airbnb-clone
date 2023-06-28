@@ -4,6 +4,7 @@ import SmallCard from "../components/SmallCard";
 import MediumCard from "../components/MediumCard";
 import LargeCard from "../components/LargeCard";
 import Footer from "../components/Footer";
+
 async function getData() {
   const exploreData = await fetch("https://www.jsonkeeper.com/b/4G1G").then(
     (res) => res.json()
